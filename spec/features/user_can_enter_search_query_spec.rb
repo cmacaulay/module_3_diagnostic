@@ -10,5 +10,6 @@ describe "As a user, when I visit the root path" do
 
       expect(current_path).to eq('/search?q=80203')
       expect(page).to have_content("80203")
+
     end
   end

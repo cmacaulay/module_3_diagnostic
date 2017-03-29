@@ -8,12 +8,12 @@ describe NrelService do
   # end
 
   describe '#stations' do
-    it 'finds all stations' do
+    it 'finds all fuel and electric stations' do
       VCR.use_cassette("services/stations") do
         stations = NrelService.new("80203")
-        station  = stations.first
 
-        # expect(stations.count).to eq()
+        stations.electric_and_propane
+        expect(stations.count).to eq(10)
       end
     end
   end
