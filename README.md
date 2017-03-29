@@ -16,27 +16,6 @@ We will be using the NREL API. Documentation is available here: http://developer
 
 If for some reason the key provided below is not working, sign up for a new key here: https://developer.nrel.gov/signup/
 
-# Keys
-
-```Name                         Key
-Alex Fosco                   1w2NkaOw8VJh1QwP3PSPFcHRKRNOO4xUklmXTlLh
-Amara Lovato                 l4vgSQwe0mTRdmsFweBBKyILgihljkXo6oNf5rir
-Andrew Wooten                RffBh8xGkxHW3m3jUUurEQKA dcMUrJWWBwu1L8ZD
-Ashley Schauer               OUGW41UIjauYcrTuLggOQKO2BkZpwKcG6h6C4iT i
-Casey Macaulay               8XFVz6OhGIVQyfCyTdb9eFzeI2VuCxcTEPh4Xj0t
-Charles Eric  Wahlgren-Sauro C2NAc66lvU1DZIzwDwLh3aiv9X2UtG2Sv7ydyKwt
-Charlotte Moorez             RZAybwTigBNgRLcZ61HIC9UGhr7d2h7TYDLb5TW
-Courtney Meyerhofer          QMl4YYq5qEQMoGUxtHoXFS8TfeRpw1FBd0tgTFk5
-Dan Olson                    3mrZQX0Xi44FALU9lEVgfgPXiyiqMZN7AzvyMbxo
-Edile ne Cruz                ySFwp7q1hsAShrtri9JYVa8RVNMlb5LvXrgZokHf
-James Anderson               MwyNlPVQpIl0YSHbtuVqkJzGwC3G4wFsdlxOF5N5
-Jonathan Serrano             hPY1TjocXZOxJnHJoUAtmmjlJmBFa5H6eVeXblDW
-Katy Farmer                  XXVVtRNYsdh9YmpPz1QGR63ctrjzbA4UPf8Ojp yz
-Max Glassie                  4i5DPYV18eY4Tjke3vHDV5x61WN6hmpgeWZBrup1
-Ryan Spink                   NeIN9lSiMzyJUoW551kYqklidKc6VJYboxMg82aS
-Spencer Carter               NyRW0lPJ5pVjIIRa56M uki5U9pZhe8KFsW6XoTpg
-Valerie Trudell              eoKjc8KH1FDRX4GQal1oH5Y2qciyxKJz5  cQPQld1
-```
 
 # Task
 
