@@ -1,7 +1,21 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/caseymacaulay/Projects/Turing/3module/diagnostic/alt-fuel-finder/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/caseymacaulay/Projects/Turing/3module/diagnostic/alt-fuel-finder/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ]
     },
-    "timestamp": 1490800807
+    "timestamp": 1490801284
   }
 }

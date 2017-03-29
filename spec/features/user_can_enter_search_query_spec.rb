@@ -1,12 +1,12 @@
 require "rails_helper"
 
 describe "As a user, when I visit the root path" do
-  scenario "when I click 'Locate' I am redirected to /search" do
-    scenario "and the path includes the search query" do
+  it "when I click 'Locate' I am redirected to /search" do
       visit root_path
 
-      expect(page).to have_link("Locate")
-      # expect(page).to have_form
+      fill_in "q", with: "80203"
+      click_on "Locate"
+
+      expect(path).to eq('/search?q=80203')
     end
   end
-end
