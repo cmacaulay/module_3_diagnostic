@@ -1,13 +1,9 @@
 class NrelService
-  attr_reader :connection
+  attr_reader :connection, :key
 
   def initialize(zipcode)
-    key = ENV["NREL_KEY"]
-    @connection = Faraday.new('https://api/alt-fuel-stations/v1/nearest.format')
-    @connection.get do |req|
-      req.params["api_key"] = ENV["NREL_KEY"]
-      req.params["location"] = zipcode
-    end
+    @connection = Faraday.get("https://api.data.gov/nrel/alt-fuel-stations/v1/nearest.json?api_key=#{ENV["NREL_KEY"]}&location=#{zipcode}")
+    byebug
   end
 
 end
