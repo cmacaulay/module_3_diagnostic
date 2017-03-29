@@ -1,9 +1,12 @@
 <h1>Search Results</h1>
-<h3>10 Closest Electric and Propane Stations to </h3>
+<h3>10 Nearest Electric and Propane Stations</h3>
 
 <ul>
 <% @stations.each do |station| %>
-  <li>Name: <%= station.station_name %></li>
-  <li>Address: <%= station.street_address %>, </li>
+  <li><h3><%= station[:station_name] %></h3></li>
+  <li>Address: <%= station[:street_address] %>, <%= station[:city] %></li>
+  <li>Fuel Types: <%= station[:fuel_type_code] %></li>
+  <li>Distance: <%= station[:distance] %></li>
+  <li>Access Times: <%= station[:access_days_time] %>
 <% end %>
 </ul>

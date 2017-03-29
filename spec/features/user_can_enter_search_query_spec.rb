@@ -9,8 +9,10 @@ describe "As a user, when I visit the root path" do
 
       click_on "Locate"
 
-      expect(current_path).to eq('/search?q=80203')
-      expect(page).to have_content("80203")
+      expect(page).to have_content("10 Nearest Electric and Propane Stations")
+      expect(page).to have_content("800 Acoma St, Denver")
+      expect(page).to have_content("UDR")
+      expect(page).to have_content("ELEC")
     end
   end
 end
