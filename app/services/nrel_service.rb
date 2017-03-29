@@ -6,7 +6,7 @@ class NrelService
   end
 
   def electric_and_propane
-    parse(connection)
+    parse(connection)[:fuel_stations]
   end
 
   private

@@ -1,2 +1,9 @@
 <h1>Search Results</h1>
-<h3>10 Closest Electric and Propane Stations to <%= @zipcode %></h3>
+<h3>10 Closest Electric and Propane Stations to </h3>
+
+<ul>
+<% @stations.each do |station| %>
+  <li>Name: <%= station.station_name %></li>
+  <li>Address: <%= station.street_address %>, </li>
+<% end %>
+</ul>

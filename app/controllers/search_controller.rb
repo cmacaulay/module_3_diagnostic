@@ -1,5 +1,5 @@
 class SearchController < ApplicationController
   def index
-    @response = NrelService.new(params[:q])
+    @stations = NrelService.new(params[:q]).electric_and_propane
   end
 end
